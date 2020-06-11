@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/*== Header Secttion Start ==*/
+.header-area{
+    background-color: #87509c;
+    padding-top: 60px;
+	padding-bottom: 120px;
+}
+.logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo a:hover{
+    color: #000000;
+}
+.mainmenu{
+    text-align: right;
+}
+.mainmenu ul{
+    margin: 0;
+    list-style: none;
+}
+.mainmenu ul li{
+    display: inline-block;
+}
+.mainmenu ul li.active{
+    background-color: #643a79;
+    border-radius: 5px 25px;
+}
+.mainmenu ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 6px 21px;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ffffff;
+}
+.mainmenu ul li a:hover{
+    background-color: #643a79;
+    border-radius: 5px 25px;
+}
+.discription{
+    text-align: center;
+    margin-top: 150px;
+}
+.discription h2{
+    font-size: 42px;
+    color: #ffffff;
+}
+.discription h2:hover{
+    color: #643a79;
+}
+.discription a{
+    text-decoration: none;
+}
+.discription a:hover{
+    color: #000;
+}
+.bordered-btn {
+	color: #ffffff;
+	background-color: #eb7d4b;
+	padding: 20px 40px;
+	margin-top: 50px;
+	display: inline-block;
+	border-radius: 6px 50px;
+}
+/*== Header Secttion Stop==*/
+/*== Services Secttion Start==*/
+.service-area{
+    background-color: #17c2a4;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.content-area{
+    text-align: center;
+}
+.content-area h3{
+    font-size: 40px;
+    color: #ffffff;
+    position: relative;
+}
+.content-area h3:hover{
+    color: #000;
+}
+.content-area h3::before {
+	content: "";
+	position: absolute;
+	right: 50%;
+	background-color: #14a58c;
+	height: 4px;
+	width: 85px;
+	bottom: -7px;
+	margin-right: -46px;
+}
+.content-area p{
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 22px;
+}
+.content-area p:hover{
+    color: #14a58c;
+}
+.brnding{
+    padding-top: 60px;
+}
+.item img:hover{
+    background-color: #14a58c;
+    border-radius: 5px;
+}
+.contnt{
+    padding-top: 35px;
+    color: #ffffff;
+}
+.contnt h3{
+    font-size: 24px;
+}
+.contnt h3:hover{
+    color: #000000;
+}
+.contnt p{
+    font-size: 15px;
+}
+.contnt p:hover{
+    color: #14a58c;
+}
+/*== Services Secttion Stop==*/
+/*==Team Area Start==*/
+.team-area{
+    color: #e7f1f8;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.team-grp{
+    text-align: center;
+}
+.team-grp h3{
+    color: #3c4761;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    position: relative;
+}
+.team-grp h3::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	background-color: #c8d9e5;
+	height: 4px;
+	width: 85px;
+	bottom: -15px;
+	margin-left: -40px;
+}
+.team-grp p{
+    color: #5d677b;
+    padding-top: 20px;
+}
+.team-unknw{
+    padding-top: 60px;
+}
+.unknw-contnt{
+    padding-top: 35px;
+}
+.unknw-contnt h3{
+    font-size: 24px;
+    color: #798395;
+}
+.unknw-contnt h5{
+    font-size: 16px;
+    color: #30bae7;
+}
+.unknw-contnt p{
+    font-size: 16px;
+    color: #707a8c;
+}
+.unknw-icon a {
+	background-color: #bdd1df;
+	color: #fff;
+	margin: 5px;
+	padding: 6px;
+	font-size: 18px;
+	border-radius: 50%;
+}
+/*==Team Area Stop==*/
+/*==ProgressBar Area Start==*/
+.progressbar-area{
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.progressbar-heading{
+    text-align: center;
+}
+.progressbar-heading h3{
+    font-size: 35px;
+    color: #3c4761;
+    position: relative;
+}
+.progressbar-heading h3::after {
+	position: absolute;
+	left: 50%;
+	height: 4px;
+	width: 70px;
+	content: "";
+	background-color: #dfe8ed;
+	bottom: -10px;
+	margin-left: -30px;
+}
+.progressbar-heading p{
+    font-size: 18px;
+    color: #626a7d;
+    padding-top: 5px;
+}
+/*==PRG==*/
+.progress-bar{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .progress-area{
+    position: relative;
+  }
+  .prgbar-parcent {
+      position: absolute;
+      top: 50%;
+      left: 8px;
+      font-size: 35px;
+      margin-top: -24px;
+      width: 100%;
+      font-weight: 700;
+      line-height: 44px;
+      color: #000000;
+  }
+  .prg-heading{
+      text-align: center;
+      padding-top: 8px;
+  }
+  .prg-heading span{
+      text-transform: uppercase;
+      font-size: 24px;
+      color: #3c4761;
+  }
+/*==PRG==*/
+
+/*==ProgressBar Area Stop==*/
+/*==Isotope Area Start==*/
+.isotope-area{
+    background-color: #ffdd99;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.isotope-heading{
+    text-align: center;
+    color: #393939;
+}
+.isotope-heading h3{
+    font-size: 35px;
+    padding-bottom: 13px;
+    position: relative;
+}
+.isotope-heading h3::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 5px;
+    background-color: #e5c37f;
+    width: 70px;
+    height: 4px;
+    margin-left: -36px;
+  }
+.isotope-heading p{
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.isotope-menu{
+    text-align: center;
+}
+.isotope-menu ul li {
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 6px 25px;
+	font-size: 20px;
+	background-color: #ebc985;
+	border-radius: 7px;
+	margin: 0px 5px;
+}
+.isotope-menu ul li.active{
+    background-color: #fff;
+    border-radius: 7px;
+}
+.project-list{
+    text-align: center;
+}
+
+.isotope-content {
+    padding-bottom: 28px;
+  }
+  .isotope-content h4 {
+    margin: 22px 0;
+    font-size: 20px;
+    color: #393939;
+    text-transform: uppercase;
+  }
+  .istp-btn {
+	color: #fff;
+	background-color: #17c2a4;
+	font-size: 18px;
+	padding: 25px 45px;
+	border-radius: 7px;
+}
+/*==Isotope Area Stop==*/
+/*=About Area Start=*/
+.about-area{
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-color: #d74680;
+}
+.about-heading{
+    color: #ffffff;
+    text-align: center;
+}
+.about-heading h3{
+    font-size: 30px;
+    position: relative;
+}
+.about-heading h3::after {
+	position: absolute;
+	content: "";
+	background-color: #b73c6d;
+	height: 4px;
+	width: 75px;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -45px;
+}
+.about-heading p{
+    font-size: 18px;
+    padding-top: 12px;
+}
+.pple-1{
+    padding-top: 40px;
+}
+.pple-2{
+    padding-top: 55px;
+}
+.pple-pic img {
+    position: relative;
+    left: 20px;
+  }
+.pple-contnt p{
+    font-size: 18px;
+    color: #ffffff;
+}
+.pple-contnt h3 {
+	font-size: 24px;
+	color: #fff;
+}
+.pple-contnt h4{
+    font-size: 15px;
+    color: #fcd597;
+}
+/*=About Area Stop=*/
+/*==Form Area Start==*/
+.form-area{
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-color: #3c5499;
+}
+.form-heading{
+    text-align: center;
+}
+.form-heading h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+}
+.form-heading h2::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	background-color: #273a71;
+	height: 4px;
+	width: 70px;
+	bottom: -10px;
+	margin-left: -40px;
+}
+.form-heading p{
+    padding-top: 10px;
+    color: #fcd597;
+}
+input ,textarea {
+    border: none;
+    color: #fff;
+    background-color: #273a71;
+    display: inline-block;
+    margin: 10px 0;
+}
+input[type="text"], input[type="email"] {
+    padding: 16px 22px;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 7px;
+}
+  textarea[name="message"] {
+    height: 250px;
+    padding: 10px 14px;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 7px;
+}
+input[type="submit"] {
+    padding: 16px 40px;
+    display: inline-block;
+    background-color: #30bae7;
+    border-radius: 7px;
+    margin-top: 30px;
+  }
+/*==Form Area Stop==*/
+/*==Footer Area Start==*/
+.foots{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #344b8e;
+}
+.foot-area{
+    text-align: center;
+}
+.foot-area ul{
+    list-style: none;
+}
+.foot-area li {
+	display: inline-block;
+	color: #fff;
+	padding: 15px 45px;
+}
+.foot-area li.active{
+    color: #30bae7;
+}
+/*==Footer Area Stop==*/
